@@ -1,0 +1,6 @@
+/*Tablet*/
+@media screen and (min-width:641px) and (max-width:1007px) {
+  .center{
+    flex-direction:column;
+  }
+}

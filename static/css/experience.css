@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+.experience-section{
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+.section-title{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.card{
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 25px 20px;
+  transition: transform 0.3s ease;
+}
+.card:hover{
+  transform: translateY(-9px);
+  box-shadow: 0 12px 24px rgba(73, 122, 214, 0.3);
+}
+.card h2{
+  text-align: center;
+  margin-top: 0;
+  
+  color: #1a237e;
+}
+
+.card ul{
+  padding-left: 10px;
+  line-height: 1.5;
+}
+.card li{
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.card p{
+  justify-content: center;
+  text-align: center;
+}

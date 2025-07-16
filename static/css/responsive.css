@@ -1,0 +1,128 @@
+/* Phone */
+@media(max-width:640px){
+  html{
+    font-size: 12px;
+  }
+  label{
+    cursor: pointer;
+  }
+  header{
+    flex-direction: column;
+    height: max-content;
+    padding: 2%;
+  }
+  /*.header-left-side{
+    width: 100%;
+    margin: 2rem 0px;
+  }*/
+  .nav-link{
+    
+    flex-direction: column;
+    gap: 1rem;
+  }
+  /*Toggle function*/
+  .nav-btn{
+    display: inline-flex;
+  }
+  #nav-check:not(:checked)~.nav-link{
+    height: 0px;
+    overflow: hidden;
+  }
+  #nav-check:checked~.nav-link{
+    height: auto;
+    overflow: auto;
+  }
+  .center{
+    flex-direction: column;
+  }
+  .about-description-container{
+    margin-top: 4rem;
+  }
+  .about-description-container h1{
+    text-align: center;
+  }
+  
+}
+
+/*@media screen and (min-width:641px) and (max-width:1007px) {
+  .center{
+    flex-direction:column;
+  }
+  html{
+    font-size: 14px;
+  }
+  .project-list{
+    width: 100%;
+
+}*/
+
+@media((max-width:1007px) and (min-width:641px)){
+  html{
+    font-size: 14px;
+  
+  }
+  /*.about-section{
+    flex-direction: column;
+  }*/
+  .nav-link {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    
+
+  }
+
+  /*.about-description-container{
+    margin-top: 4rem;
+  }
+  .about-description-container p{
+    width: 100%;
+  }
+  .about-image-container{
+    margin-top: 4rem;
+  }
+  
+  */
+  
+  
+}
+
+@media(max-width:1007px){
+  .about-section{
+    flex-direction: column;
+  }
+  .project-card{
+    width: 100%;
+  }
+  .projects-list{
+    flex-direction: column;
+  }
+  .projects-list{
+    margin-top: 10px;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(232, 112, 112);
+  }
+  .project-card a{
+    width: 100%;
+  }
+  .project-card a img{
+    height: 20rem;
+    object-fit: cover;
+    object-position: center 80%;
+    margin-top: 2px;
+    border: 2%;
+  }
+  .about-description-container{
+    margin-top: 4rem;
+  }
+  .about-description-container p{
+    width: 100%;
+  }
+  .about-image-container{
+    margin-top: 4rem;
+  }
+  
+}

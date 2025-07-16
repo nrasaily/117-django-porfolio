@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %} {% endblock title %}
+{% load static %}
+{% block content %}
+<section class="about-section center">
+
+    <div class="about-image-container">
+      <img src="{% static 'img/photo.png' %}" alt="my picture">
+    </div>
+    <div class="about-description-container center-column">
+      <h1>Full Stack Developer</h1>
+      <h2>Nar Always</h2>
+
+      <p>Naresh Rasaily is an evolving developer fueled by curiosity, persistence, and a strong desire to build meaningful digital solutions. With a background in full stack development and hands-on experience with technologies like Django, JavaScript, and modern UI design tools, he is constantly sharpening his skills through real-world projects, debugging challenges, and creative exploration. His journey reflects a deep commitment to learning—not just coding for functionality, but understanding the “why” behind every line of logic and architecture.
+      </p>
+      <br>
+      <p>What sets Naresh apart is his growing ability to connect technical knowledge with user  experience, always striving to make things not only work—but work beautifully. He embraces the mindset of continuous growth, using each setback as a stepping stone toward mastery. As he expands his toolkit and tackles more complex systems, Naresh is shaping into a versatile and thoughtful developer ready to contribute to dynamic, forward-thinking teams.
+      </p>
+    </div>
+
+
+
+  </section>
+{% endblock content %}

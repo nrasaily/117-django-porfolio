@@ -1,0 +1,75 @@
+/**/
+:root {
+  --primary-color: #00635a;
+  --secondary-color: #f5f8ff;
+  --neutral-color: #333333;
+  --background-color: #f5f8ff;
+  --text-color: #021334;
+
+  --primary-font: 'Dancing-Script', sans-serif;
+  --secondary-font: 'edu-Qld', sans-serif;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+/*general style: the style that going to apply in all elements*/
+html{
+  background-color: var(--background-color);
+  font-size: 14px;
+}
+
+
+*{font-family: var(--primary-font);
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  color: var(--primary-color);
+  font-size: 2rem;
+  text-transform: uppercase;
+  
+}
+h2{
+  color: var(--neutral-color);
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  letter-spacing: 0.06rem;
+  font-size: 1.8rem;
+  font-family: 'pacifico', cursive;
+}
+.text-logo {
+  color: aliceblue;
+}
+p{
+  color: var(--neutral-color);
+  font-size: 1.1rem;
+  line-height: 25px;
+}
+
+.text-label {
+  background-color: white;
+  border: 1px solid var(--background-color);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  color: var(--primary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.custom-navbar{
+  background-color: #1e3e8a;
+  color: white;
+}
